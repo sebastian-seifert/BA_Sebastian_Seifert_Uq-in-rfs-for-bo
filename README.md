@@ -206,8 +206,7 @@ the loop locally.
   ￹[`results/extrapolation_uq/analysis/`](results/extrapolation_uq/analysis/)
   - **Runtime Scaling Analysis**:
   ￹[`results/sweep_bbob_timing/analysis/`](results/sweep_bbob_timing/analysis/)
-  - **BO Benchmarks**: Scorecards and CARP-S reports are saved to `results/<suite>_merged/`   
-  ￹and `results/global_summary_scorecard.md`.
+
 
 
 ## Citation
