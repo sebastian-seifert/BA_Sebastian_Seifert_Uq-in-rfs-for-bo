@@ -197,6 +197,18 @@ python scripts/explain_meta_hpo.py --method a        # HyperSHAP interaction ana
 `scripts/run_meta_hpo.py --dry-run` replaces the Slurm evaluation by a mock objective to check
 the loop locally.
 
+  ## Results
+
+  Aggregated evaluation summaries, metrics, and generated plots are stored in
+  ￹[`results/`](results/):
+
+  - **Extrapolation Analysis**:
+  ￹[`results/extrapolation_uq/analysis/`](results/extrapolation_uq/analysis/)
+  - **Runtime Scaling Analysis**:
+  ￹[`results/sweep_bbob_timing/analysis/`](results/sweep_bbob_timing/analysis/)
+  - **BO Benchmarks**: Scorecards and CARP-S reports are saved to `results/<suite>_merged/`   
+  ￹and `results/global_summary_scorecard.md`.
+
 
 ## Citation
 
