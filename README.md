@@ -197,18 +197,6 @@ python scripts/explain_meta_hpo.py --method a        # HyperSHAP interaction ana
 `scripts/run_meta_hpo.py --dry-run` replaces the Slurm evaluation by a mock objective to check
 the loop locally.
 
-## Results
-
-[`results/`](results) contains the aggregated outputs reported in the thesis; raw run logs are
-not included because of their size.
-
-| Folder | Content |
-| --- | --- |
-| `sweep_bbsubset_dev_big_comparison_fix/report` | CARP-S report of the BBSubset-dev sweep |
-| `extrapolation_uq/analysis` | extrapolation scorecards and plots |
-| `extrapolation_uq/thesis_artifacts` | tables and figures used in the thesis |
-| `sweep_bbob_timing/analysis` | runtime summary |
-| `meta_smac_proximity_*_hpo` | meta-HPO leaderboard, best configuration, HyperSHAP summaries |
 
 ## Citation
 
