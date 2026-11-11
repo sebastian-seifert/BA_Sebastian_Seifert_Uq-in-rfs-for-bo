@@ -1,0 +1,9 @@
+# @package _global_
+defaults:
+  - /optimizer/smac20/base
+optimizer_id: SMAC3_HPOFacade_ei
+optimizer_container_id: SMAC3_HPOFacade_ei
+optimizer:
+  acq_func_name: "ei"
+  smac_cfg:
+    smac_class: smac.facade.HyperparameterOptimizationFacade

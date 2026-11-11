@@ -1,0 +1,21 @@
+# @package _global_
+defaults:
+  - /optimizer/smac20/base
+optimizer_id: SMAC20_ProximityAC_LCB_CV
+optimizer_container_id: SMAC20_ProximityAC_LCB_CV
+optimizer:
+  acq_func_name: "proximity_lcb"
+  acq_func_kwargs:
+    method: "ac"
+    k: 7
+    k_warmup: 7
+    eps: 0.093
+    level: 0.95
+  smac_cfg:
+    smac_class: smac.facade.HyperparameterOptimizationFacade
+    model_class: dyrf_bo.bo.surrogate.CustomUncertaintyRandomForest
+    model_kwargs:
+      uncertainty_func: "proximity_bc_cv"
+      extractor_kwargs:
+        decay_lambda: 0.328
+        alpha: 1.0

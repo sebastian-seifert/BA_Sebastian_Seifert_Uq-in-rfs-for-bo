@@ -1,0 +1,15 @@
+# @package _global_
+defaults:
+  - /optimizer/smac20/base
+optimizer_id: SMAC20_Entropy_LCB
+optimizer_container_id: SMAC20_Entropy_LCB
+optimizer:
+  acq_func_name: "lcb"
+  acq_func_kwargs:
+    beta: 3.8416
+    update_beta: false
+  smac_cfg:
+    smac_class: smac.facade.HyperparameterOptimizationFacade
+    model_class: dyrf_bo.bo.surrogate.CustomUncertaintyRandomForest
+    model_kwargs:
+      uncertainty_func: "shaker_entropy"

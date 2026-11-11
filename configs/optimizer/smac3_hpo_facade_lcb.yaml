@@ -1,0 +1,12 @@
+# @package _global_
+defaults:
+  - /optimizer/smac20/base
+optimizer_id: SMAC3_HPOFacade_lcb
+optimizer_container_id: SMAC3_HPOFacade_lcb
+optimizer:
+  acq_func_name: "lcb"
+  acq_func_kwargs:
+    beta: 3.8416
+    update_beta: false
+  smac_cfg:
+    smac_class: smac.facade.HyperparameterOptimizationFacade

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the thesis."
+title: "DyRF-BO: Uncertainty Quantification in Random Forest Surrogates for Bayesian Optimization"
+authors:
+  - family-names: Seifert
+    given-names: Sebastian
+license: MIT
+preferred-citation:
+  type: thesis
+  title: "Uncertainty Quantification in Random Forest Surrogates for Bayesian Optimization"
+  authors:
+    - family-names: Seifert
+      given-names: Sebastian
+  institution:
+    name: "Leibniz University Hannover"
+  thesis-type: "Bachelor's thesis"
+  year: 2026

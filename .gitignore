@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+build/
+dist/
+
+# Run outputs (raw CARP-S runs, Slurm logs, generated manifests and intermediate data)
+runs/
+logs/
+outputs/
+smac3_output/
+results/**/logs/
+results/extrapolation_uq/raw/
+results/extrapolation_uq/summaries/
+results/**/tasks*.txt
+results/**/scheduler_state*.json
+*.parquet
+
+# Tools
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.idea/
+.vscode/
