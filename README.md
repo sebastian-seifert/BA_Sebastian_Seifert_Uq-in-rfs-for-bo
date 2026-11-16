@@ -209,18 +209,6 @@ the loop locally.
 
 
 
-## Citation
-
-```bibtex
-@thesis{seifert2026dyrfbo,
-  author = {Sebastian Seifert},
-  title  = {Uncertainty Quantification in Random Forest Surrogates for Bayesian Optimization},
-  school = {Leibniz University Hannover},
-  type   = {Bachelor's thesis},
-  year   = {2026}
-}
-```
-
 Reviewers: Prof. Dr. Marius Lindauer, Prof. Dr. Henning Wachsmuth. Supervisor: Leona Hennig.
 
 ## License
