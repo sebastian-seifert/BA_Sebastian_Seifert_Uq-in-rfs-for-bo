@@ -1,4 +1,4 @@
-# DyRF-BO
+# Uncertainty Quantification in Random Forest Surrogates for Bayesian Optimization
 
 Code for the bachelor's thesis *Uncertainty Quantification in Random Forest Surrogates for
 Bayesian Optimization* (Sebastian Seifert, Leibniz University Hannover, 2026).
